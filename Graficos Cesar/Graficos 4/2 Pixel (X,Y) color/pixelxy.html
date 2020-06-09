@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Pixel en una posici�n x,y indicada por el usuario</title>
+  </head>
+
+  <body>
+
+    <!-- Archivo pixelxy.js con la rutina para pintar el pixel utilizando javascript -->
+    <script src="pixelxy.js"></script>
+
+    <form id="f"> <!-- Formulario para introducir coordenadas y color del pixel -->
+      x<input name="x" type="text" size="2" /> <!-- Campo texto para la abscisa -->
+      y<input name="y" type="text" size="2" /> <!-- Campo texto para la ordenada -->
+      color<input name="c" type="color" /> <!-- Indicar el color del punto -->
+      <!-- Bot�n para llamar a la funci�n que muestra el punto -->
+      <input type="button" value="pintar" onclick="dibujar()" />
+    </form>
+
+    <canvas id="lienzo" width="400" height="400" style="background-color:#a0a0a0;"> <!-- Lienzo para pintar el punto -->
+    </canvas>
+    <p>CESAR ALEJANDRO ARTEAGA GONZALEZ</p>
+    <p>	PEREZ LOPEZ, JOSE FRANCISCO</p>
+    <p>Universidad de Guadalajara</p>
+    <p>Ingenieria en Ciencias Computacionales</p>
+
+
+  </body>
+
+</html>
